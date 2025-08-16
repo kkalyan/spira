@@ -10,8 +10,8 @@ import logging
 import sys
 from pathlib import Path
 
-from spira.config import Config
-from spira.knowledge_base import KnowledgeBaseBuilder
+from spira_backend.config import Config
+from spira_backend.knowledge_base import KnowledgeBaseBuilder
 
 # Configure logging
 logging.basicConfig(

@@ -55,9 +55,9 @@ Repository = "https://github.com/yourusername/spira"
 Issues = "https://github.com/yourusername/spira/issues"
 
 [project.scripts]
-spira-build = "spira.cli:build_knowledge_base"
-spira-app = "spira.cli:run_app"
-spira = "spira.cli:main"
+spira-build = "spira_backend.cli:build_knowledge_base"
+spira-app = "spira_app.cli:run_app"
+spira = "spira_cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
@@ -101,7 +101,8 @@ python_files = ["test_*.py"]
 python_classes = ["Test*"]
 python_functions = ["test_*"]
 addopts = [
-    "--cov=src/spira",
+    "--cov=src/spira_backend",
+    "--cov=src/spira_app",
     "--cov-report=term-missing",
     "--cov-report=html",
     "--strict-markers",

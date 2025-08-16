@@ -1,7 +1,7 @@
 """Tests for SQL analyzer."""
 
 import pytest
-from text2sql_rag.sql_analyzer import SQLAnalyzer, SQLPattern
+from spira_backend.sql_analyzer import SQLAnalyzer, SQLPattern
 
 
 class TestSQLAnalyzer:

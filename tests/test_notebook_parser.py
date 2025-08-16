@@ -5,7 +5,7 @@ import pytest
 from pathlib import Path
 from unittest.mock import Mock, patch
 
-from text2sql_rag.notebook_parser import NotebookParser, NotebookCell, ParsedNotebook
+from spira_backend.notebook_parser import NotebookParser, NotebookCell, ParsedNotebook
 
 
 class TestNotebookParser:

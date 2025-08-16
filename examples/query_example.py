@@ -9,8 +9,8 @@ to generate SQL from natural language questions.
 import logging
 from pathlib import Path
 
-from spira.config import Config
-from spira.query_engine import QueryEngine
+from spira_backend.config import Config
+from spira_backend.query_engine import QueryEngine
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)

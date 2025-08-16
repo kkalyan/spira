@@ -4,7 +4,7 @@ import pytest
 from pathlib import Path
 from pydantic import ValidationError
 
-from text2sql_rag.config import Config, GlueCatalogConfig, OpenSearchConfig, ModelsConfig
+from spira_backend.config import Config, GlueCatalogConfig, OpenSearchConfig, ModelsConfig
 
 
 class TestGlueCatalogConfig:
